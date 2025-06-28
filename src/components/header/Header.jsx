@@ -44,9 +44,9 @@ export default function Header({ selectedTab, setSelectedTab }) {
                 {menuOpen && (
                     <div className="md:hidden" id="mobile-menu">
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                            <NavLink text="Home" tab="home" selectedTab={selectedTab} setSelectedTab={setSelectedTab} mobile={true} />
-                            <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} mobile={true}/>
-                            <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} mobile={true}/>
+                            <NavLink text="Home" tab="home" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
+                            <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true}/>
+                            <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true}/>
                         </div>
                     </div>
                 )}

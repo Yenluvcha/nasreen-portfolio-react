@@ -17,7 +17,7 @@ export default function About() {
                     <h3 className="mb-3 text-2xl font-bold text-center sm:text-left">
                         About Me
                     </h3>
-                    <p className="mb-5">
+                    <p className="mb-5 text-center sm:text-start">
                         I’m a{" "}
                         <span className="font-semibold ">Junior Fullstack Web Developer</span>.
                         With experience in {" "}
@@ -62,7 +62,7 @@ export default function About() {
 
             <div className="inline-flex items-center justify-center w-full">
                 <hr className="w-full h-px my-8 border-0 bg-zinc-300 dark:bg-zinc-700" />
-                <span className="absolute inline-flex items-center px-3 font-bold -translate-x-1/2 gap-x-2 text-zinc-900 bg-zinc-50 left-1/2 dark:text-white dark:bg-zinc-950">
+                <span className="absolute inline-flex items-center px-3 font-bold text-center -translate-x-1/2 gap-x-2 text-zinc-900 bg-zinc-50 left-1/2 dark:text-white dark:bg-zinc-950">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -250,7 +250,7 @@ export default function About() {
 
             <div className="inline-flex items-center justify-center w-full">
                 <hr className="w-full h-px my-8 border-0 bg-zinc-300 dark:bg-zinc-700" />
-                <span className="absolute inline-flex items-center px-3 font-bold -translate-x-1/2 gap-x-2 text-zinc-900 bg-zinc-50 left-1/2 dark:text-white dark:bg-zinc-950">
+                <span className="absolute inline-flex items-center px-3 font-bold text-center -translate-x-1/2 gap-x-2 text-zinc-900 bg-zinc-50 left-1/2 dark:text-white dark:bg-zinc-950">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -386,7 +386,7 @@ export default function About() {
             <>
                 <div className="inline-flex items-center justify-center w-full">
                     <hr className="w-full h-px my-8 border-0 bg-zinc-300 dark:bg-zinc-700" />
-                    <span className="absolute inline-flex items-center px-3 font-bold -translate-x-1/2 gap-x-2 text-zinc-900 bg-zinc-50 left-1/2 dark:text-white dark:bg-zinc-950">
+                    <span className="absolute inline-flex items-center px-3 font-bold text-center -translate-x-1/2 gap-x-2 text-zinc-900 bg-zinc-50 left-1/2 dark:text-white dark:bg-zinc-950">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
