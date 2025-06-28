@@ -20,7 +20,7 @@ export default function About() {
                     <p className="mb-5">
                         I’m a{" "}
                         <span className="font-semibold ">Junior Fullstack Web Developer</span>.
-                        With experience in
+                        With experience in {" "}
                         <span className="text-[#F7DF1E]">JavaScript</span>,{" "}
                         <span className="text-[#777BB3]">PHP</span>, and{" "}
                         <span className="text-[#F05340]">Laravel</span>. I’m always eager to learn
