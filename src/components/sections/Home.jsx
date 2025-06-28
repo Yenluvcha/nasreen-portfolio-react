@@ -9,7 +9,7 @@ export default function Home({ setSelectedTab }) {
             <div className="max-w-3xl py-24 mx-auto sm:py-32 lg:py-48">
                 <div className="text-center">
                     <div className="flex flex-col-reverse items-center justify-center gap-4 sm:flex-row">
-                        <h1 className="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl dark:text-white">
+                        <h1 className="text-5xl font-semibold tracking-tight text-zinc-900 sm:text-7xl dark:text-white">
                             Hi, I'm <span className="font-bold text-orange-500">Nasreen</span>
                         </h1>
                         <img
@@ -18,7 +18,7 @@ export default function Home({ setSelectedTab }) {
                             className="size-16 sm:size-24"
                         />
                     </div>
-                    <p className="mt-8 text-lg font-medium text-gray-600 text-pretty dark:text-gray-400 sm:text-xl/8">
+                    <p className="mt-8 text-lg font-medium text-zinc-600 text-pretty dark:text-zinc-400 sm:text-xl/8">
                         A passionate Junior Fullstack Web Developer.
                     </p>
                     <div className="flex flex-col items-center justify-center mt-10 sm:flex-row gap-y-4 sm:gap-x-6">
