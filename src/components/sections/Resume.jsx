@@ -11,7 +11,7 @@ export default function Resume() {
                 <a
                     href={resume}
                     target="_blank"
-                    className="inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold text-white bg-green-700 rounded-md shadow-xs hover:bg-green-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
+                    className="inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold text-white bg-green-700 rounded-md shadow-sm hover:bg-green-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

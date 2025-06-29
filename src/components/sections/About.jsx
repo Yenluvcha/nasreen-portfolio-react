@@ -30,7 +30,7 @@ export default function About() {
                         <a
                             href="https://github.com/Yenluvcha"
                             target="_blank"
-                            className="inline-flex items-center p-2 text-sm font-medium text-center text-white rounded-full focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
+                            className="inline-flex items-center p-2 text-sm font-medium text-center text-white rounded-full shadow-sm focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
                         >
                             <img
                                 src={githubIcon}
@@ -41,7 +41,7 @@ export default function About() {
                         <a
                             href="https://www.linkedin.com/in/nasreen-nordin-362bb22b8/"
                             target="_blank"
-                            className="inline-flex items-center p-2 text-sm font-medium text-center text-white rounded-full focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
+                            className="inline-flex items-center p-2 text-sm font-medium text-center text-white rounded-full shadow-sm focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
                         >
                             <img
                                 src={linkedinIcon}
@@ -52,7 +52,7 @@ export default function About() {
                         <a
                             href="mailto:nasreenaqmal12@gmail.com"
                             target="_blank"
-                            className="inline-flex items-center p-2 text-sm font-medium text-center rounded-full text-zinc-700 focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
+                            className="inline-flex items-center p-2 text-sm font-medium text-center rounded-full shadow-sm text-zinc-700 focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
                         >
                             <HiMail className='size-6' />
                         </a>
