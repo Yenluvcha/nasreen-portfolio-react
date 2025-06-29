@@ -28,13 +28,7 @@ export default function Header({ selectedTab, setSelectedTab }) {
                             </div>
                         </div>
 
-                        <div className="hidden md:block">
-                            <div className="flex items-center ml-4 md:ml-6 gap-x-2">
-                                <ThemeToggle />
-                            </div>
-                        </div>
-
-                        <div className="flex -mr-2 gap-x-2 md:hidden">
+                        <div className="flex -mr-2 gap-x-2">
                             <ThemeToggle />
                             <MenuToggle isOpen={menuOpen} toggle={() => setMenuOpen(prev => !prev)} />
                         </div>

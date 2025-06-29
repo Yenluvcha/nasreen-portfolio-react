@@ -6,7 +6,7 @@ export function MenuToggle({isOpen, toggle}) {
     return (
         <button
             onClick={toggle}
-            className="p-2 font-medium text-black rounded-md dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800"
+            className="p-2 font-medium text-black rounded-md md:hidden dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800"
         >
             {isOpen ? (
                 <HiOutlineX className="size-5"/>
