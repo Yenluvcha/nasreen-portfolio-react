@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Header from './components/header/Header';
 import Home from './components/sections/Home';
-import About from './components/sections/About';
+import About from './components/sections/about/About';
 import Resume from './components/sections/Resume';
 
 function App() {
