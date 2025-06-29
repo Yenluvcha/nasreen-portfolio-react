@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"
+import { HiOutlineBars3, HiOutlineXMark } from "react-icons/hi2"
 
 export function MenuToggle({isOpen, toggle}) {
 
@@ -9,9 +9,9 @@ export function MenuToggle({isOpen, toggle}) {
             className="p-2 font-medium text-black rounded-md md:hidden dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800"
         >
             {isOpen ? (
-                <HiOutlineX className="size-5"/>
+                <HiOutlineXMark className="size-5"/>
             ) : (
-                <HiOutlineMenu className="size-5"/>
+                <HiOutlineBars3 className="size-5"/>
             )}
         </button>
     );

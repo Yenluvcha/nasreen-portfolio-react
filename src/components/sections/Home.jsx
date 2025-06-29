@@ -1,6 +1,6 @@
 
 import wavingEmoji from '../../assets/images/gif/wave.gif'
-import { HiArrowSmRight } from "react-icons/hi";
+import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 export default function Home({ setSelectedTab }) {
 
@@ -27,7 +27,7 @@ export default function Home({ setSelectedTab }) {
                             className="inline-flex cursor-pointer items-center gap-1 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                         >
                             Learn more
-                            <HiArrowSmRight className="size-5" />
+                            <HiOutlineArrowSmallRight className="size-4 stroke-[2]" />
                         </button>
                     </div>
                 </div>

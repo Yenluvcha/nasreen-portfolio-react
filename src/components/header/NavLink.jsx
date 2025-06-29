@@ -1,8 +1,4 @@
 
-// normal active -> <a href="#" className="px-3 py-2 text-sm font-semibold text-black rounded-md bg-zinc-100 dark:bg-zinc-950 dark:text-white" aria-current="page">Home</a>
-
-// mobile active -> <a href="#" className="block px-3 py-2 text-base font-semibold text-black rounded-md bg-zinc-100 dark:bg-zinc-950 dark:text-white" aria-current="page">Dashboard</a>
-
 export function NavLink({ mobile = false, text, tab, selectedTab, setSelectedTab, setMenuOpen }) {
 
     const baseClass = "px-3 py-2 rounded-md text-sm font-medium cursor-pointer";

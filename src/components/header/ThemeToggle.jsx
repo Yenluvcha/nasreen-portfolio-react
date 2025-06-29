@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HiOutlineMoon, HiOutlineSun } from "react-icons/hi"
+import { HiOutlineMoon, HiOutlineSun } from "react-icons/hi2"
 
 export function ThemeToggle() {
 
