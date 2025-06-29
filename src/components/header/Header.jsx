@@ -17,7 +17,9 @@ export default function Header({ selectedTab, setSelectedTab }) {
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <div className="shrink-0">
-                                <img className="size-8" src={logo} />
+                                <a href="">
+                                    <img className="size-8" src={logo} />
+                                </a>
                             </div>
                             <div className="hidden md:block">
                                 <div className="flex items-baseline ml-10 space-x-4">
@@ -39,8 +41,8 @@ export default function Header({ selectedTab, setSelectedTab }) {
                     <div className="md:hidden" id="mobile-menu">
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                             <NavLink text="Home" tab="home" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
-                            <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true}/>
-                            <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true}/>
+                            <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
+                            <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
                         </div>
                     </div>
                 )}
