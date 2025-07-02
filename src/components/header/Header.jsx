@@ -25,6 +25,7 @@ export default function Header({ selectedTab, setSelectedTab }) {
                                 <div className="flex items-baseline ml-10 space-x-4">
                                     <NavLink text="Home" tab="home" selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
                                     <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
+                                    <NavLink text="Skills" tab="skill" selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
                                     <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
                                 </div>
                             </div>
@@ -42,6 +43,7 @@ export default function Header({ selectedTab, setSelectedTab }) {
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                             <NavLink text="Home" tab="home" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
                             <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
+                            <NavLink text="Skills" tab="skill" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
                             <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
                         </div>
                     </div>

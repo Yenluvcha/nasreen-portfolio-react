@@ -1,0 +1,94 @@
+{
+    "frontend": [
+        {
+            "name": "JavaScript",
+            "level": "Intermediate",
+            "logo": "javascript.svg",
+            "backgroundColor": "yellow"
+        },
+        {
+            "name": "React",
+            "level": "Beginner",
+            "logo": "react.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "Tailwind CSS",
+            "level": "Beginner",
+            "logo": "tailwind.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "Bootstrap",
+            "level": "Intermediate",
+            "logo": "bootstrap.svg",
+            "backgroundColor": "blue"
+        }
+    ],
+    "backend": [
+        {
+            "name": "PHP",
+            "level": "Intermediate",
+            "logo": "php.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "Laravel",
+            "level": "Beginner",
+            "logo": "laravel.svg",
+            "backgroundColor": "red"
+        }
+    ],
+    "database": [
+        {
+            "name": "MS SQL Server",
+            "level": "Intermediate",
+            "logo": "msserver.svg",
+            "backgroundColor": "red"
+        },
+        {
+            "name": "SQLite",
+            "level": "Beginner",
+            "logo": "sqlite.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "MySQL",
+            "level": "Beginner",
+            "logo": "mysql.svg",
+            "backgroundColor": "blue"
+        }
+    ],
+    "tools": [
+        {
+            "name": "Visual Studio Code",
+            "level": "Intermediate",
+            "logo": "vscode.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "Visual Studio",
+            "level": "Beginner",
+            "logo": "vs.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "Postman",
+            "level": "Beginner",
+            "logo": "postman.svg",
+            "backgroundColor": "orange"
+        },
+        {
+            "name": "Redis",
+            "level": "Beginner",
+            "logo": "redis.svg",
+            "backgroundColor": "red"
+        },
+        {
+            "name": "Git",
+            "level": "Beginner",
+            "logo": "git.svg",
+            "backgroundColor": "orange"
+        }
+    ]
+}
