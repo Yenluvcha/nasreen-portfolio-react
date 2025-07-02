@@ -9,7 +9,14 @@ export default function SkillCard({ name, level, logo, backgroundColor }) {
     // Inside the component or a function
     const logoSrc = svgImports[`/src/assets/images/skills/svg/${logo}`];
 
-    const logoContainerClass = `flex items-center justify-center w-16 h-16 rounded-sm bg-${backgroundColor}-500/10`;
+    const backgroundColorMap = {
+        red: 'bg-red-500/10',
+        blue: 'bg-blue-500/10',
+        yellow: 'bg-yellow-500/10',
+        green: 'bg-green-500/10'
+    };
+
+    const logoContainerClass = `flex items-center justify-center w-16 h-16 rounded-sm ${backgroundColorMap[backgroundColor]}`;
 
     return (
         <div className="flex gap-3 p-3 bg-white border rounded-lg shadow-xs border-zinc-300/0 hover:border-zinc-300 hover:bg-zinc-50 dark:bg-zinc-900 dark:border-zinc-700/0 dark:hover:border-zinc-500 dark:hover:bg-zinc-800">
