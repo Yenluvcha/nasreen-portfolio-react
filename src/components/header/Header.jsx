@@ -11,7 +11,7 @@ export default function Header({ selectedTab, setSelectedTab }) {
 
     return (
         <>
-            <nav className="bg-white dark:bg-black">
+            <nav className="bg-white dark:bg-black fixed w-full z-20 top-0 start-0">
 
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">

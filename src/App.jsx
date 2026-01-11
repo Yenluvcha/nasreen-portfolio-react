@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
-      <main>
+      <main className='mt-[64px]'>
         <div className="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8 dark:text-white">
           {selectedTab === 'home' && <Home setSelectedTab={setSelectedTab}/>}
           {selectedTab === 'about' && <About />}
