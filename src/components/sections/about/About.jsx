@@ -52,7 +52,7 @@ export default function About() {
                 />
             ))} />
 
-            <SectionHeader icon={<HiOutlineCheckBadge className="size-5 stroke-[2]" />} title="Education" />
+            <SectionHeader icon={<HiOutlineCheckBadge className="size-5 stroke-[2]" />} title="Achievements" />
 
             <div className="flex justify-center mx-auto my-6">
                 <div className="flex flex-col items-center gap-5 sm:flex-row">

@@ -16,9 +16,9 @@ export default function AboutMe() {
                 <h3 className="mb-3 text-2xl font-bold text-center sm:text-left">
                     About Me
                 </h3>
-                <p className="mb-5 text-center sm:text-start">
+                <p className="mb-5 text-center sm:text-start dark:text-zinc-300">
                     I’m a{" "}
-                    <span className="font-semibold ">Junior Fullstack Web Developer</span>.
+                    <span className="font-semibold dark:text-white">Junior Fullstack Web Developer</span> based in Malaysia.
                     With experience in {" "}
                     <span className="text-[#F7DF1E]">JavaScript</span>,{" "}
                     <span className="text-[#777BB3]">PHP</span>, and{" "}

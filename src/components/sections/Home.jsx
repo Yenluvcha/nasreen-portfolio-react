@@ -19,7 +19,10 @@ export default function Home({ setSelectedTab }) {
                         />
                     </div>
                     <p className="mt-8 text-lg font-medium text-zinc-600 text-pretty dark:text-zinc-400 sm:text-xl/8">
-                        A passionate Junior Fullstack Web Developer.
+                        A Junior Fullstack Web Developer
+                    </p>
+                    <p className="mt-1 text-sm font-medium text-zinc-600 text-pretty dark:text-zinc-400 sm:text-base">
+                        Based in Malaysia 
                     </p>
                     <div className="flex flex-col items-center justify-center mt-10 sm:flex-row gap-y-4 sm:gap-x-6">
                         <button
