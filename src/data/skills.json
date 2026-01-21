@@ -1,6 +1,18 @@
 {
     "frontend": [
         {
+            "name": "HTML",
+            "level": "Intermediate",
+            "logo": "html.svg",
+            "backgroundColor": "red"
+        },
+        {
+            "name": "CSS",
+            "level": "Intermediate",
+            "logo": "css.svg",
+            "backgroundColor": "blue"
+        },
+        {
             "name": "JavaScript",
             "level": "Intermediate",
             "logo": "javascript.svg",
@@ -88,6 +100,18 @@
             "name": "Git",
             "level": "Beginner",
             "logo": "git.svg",
+            "backgroundColor": "orange"
+        },
+        {
+            "name": "Xampp",
+            "level": "Beginner",
+            "logo": "xampp.svg",
+            "backgroundColor": "orange"
+        },
+        {
+            "name": "Herd",
+            "level": "Beginner",
+            "logo": "herd.svg",
             "backgroundColor": "orange"
         }
     ]
