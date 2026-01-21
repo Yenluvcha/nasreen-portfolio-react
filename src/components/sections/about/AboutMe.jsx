@@ -1,7 +1,9 @@
 import pfp from '../../../assets/images/pfp.jpg'
 import githubIcon from '../../../assets/images/skills/svg/github.svg'
 import linkedinIcon from '../../../assets/images/skills/svg/linkedin.svg'
-import { HiEnvelope } from "react-icons/hi2";
+
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 
 export default function AboutMe() {
 
@@ -29,31 +31,29 @@ export default function AboutMe() {
                     <a
                         href="https://github.com/Yenluvcha"
                         target="_blank"
-                        className="inline-flex items-center p-2 text-sm font-medium text-center text-white rounded-full shadow-sm focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
+                        className="inline-flex items-center gap-1.5 p-2 text-sm font-medium text-center group hover:text-orange-500 transition-colors duration-200"
                     >
-                        <img
-                            src={githubIcon}
-                            alt=""
-                            className="w-6 h-6"
-                        />
+
+                        <FaGithub className='transition-colors duration-200 size-6 group-hover:text-orange-500' />
+                        Github
+
                     </a>
                     <a
                         href="https://www.linkedin.com/in/nasreen-nordin-362bb22b8/"
                         target="_blank"
-                        className="inline-flex items-center p-2 text-sm font-medium text-center text-white rounded-full shadow-sm focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
+                        className="inline-flex items-center gap-1.5 p-2 text-sm font-medium text-center group hover:text-orange-500 transition-colors duration-200"
                     >
-                        <img
-                            src={linkedinIcon}
-                            alt=""
-                            className="w-6 h-6"
-                        />
+                        <FaLinkedin className='transition-colors duration-200 size-6 group-hover:text-orange-500' />
+                        LinkedIn
+
                     </a>
                     <a
                         href="mailto:nasreenaqmal12@gmail.com"
                         target="_blank"
-                        className="inline-flex items-center p-2 text-sm font-medium text-center rounded-full shadow-sm text-zinc-700 focus:ring-4 focus:outline-none bg-zinc-50 hover:bg-zinc-200 hover:ring-2 hover:ring-orange-500"
+                        className="inline-flex items-center gap-1.5 p-2 text-sm transition-colors duration-200 font-medium text-center group hover:text-orange-500"
                     >
-                        <HiEnvelope className='size-6' />
+                        <FaEnvelope className='transition-colors duration-200 size-6 group-hover:text-orange-500' />
+                        Contact
                     </a>
                 </div>
             </div>
