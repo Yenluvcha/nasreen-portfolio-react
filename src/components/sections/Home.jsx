@@ -27,7 +27,7 @@ export default function Home({ setSelectedTab }) {
                     <div className="flex flex-col items-center justify-center mt-10 sm:flex-row gap-y-4 sm:gap-x-6">
                         <button
                             onClick={() => setSelectedTab('about')}
-                            className="inline-flex cursor-pointer items-center gap-1 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                            className="inline-flex cursor-pointer items-center gap-1 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-colors duration-200"
                         >
                             Learn more
                             <HiOutlineArrowSmallRight className="size-4 stroke-[2]" />
