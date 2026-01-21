@@ -1,11 +1,12 @@
 import AboutMe from "./AboutMe"
+import Skills from "./skills/Skills";
 import SectionHeader from "./SectionHeader";
 import TimelineList from "./TimelineList";
 import ExperienceItem from "./ExperienceItem";
 import EducationItem from "./EducationItem";
 import CertificationCard from "./CertificationCard";
 
-import { HiOutlineBriefcase, HiGlobeAlt, HiOutlineAcademicCap, HiOutlineCheckBadge, HiOutlineBookOpen } from "react-icons/hi2";
+import { HiOutlineWrenchScrewdriver, HiOutlineBriefcase, HiGlobeAlt, HiOutlineAcademicCap, HiOutlineCheckBadge, HiOutlineBookOpen } from "react-icons/hi2";
 
 import workingExperiences from "../../../data/workingExperiences.json";
 import educations from "../../../data/educations.json";
@@ -17,7 +18,11 @@ export default function About() {
         <>
             <AboutMe />
 
-            <SectionHeader icon={<HiOutlineBriefcase className="size-5 stroke-[2]" />} title="Working Experience" />
+            <SectionHeader icon={<HiOutlineWrenchScrewdriver className="size-5 stroke-[2]" />} title="Technical Skills" />
+
+            <Skills />
+
+            <SectionHeader icon={<HiOutlineBriefcase className="size-5 stroke-[2]" />} title="Work Experience" />
 
             <TimelineList items={workingExperiences.map((item, index) => (
                 <ExperienceItem

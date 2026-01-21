@@ -12,7 +12,7 @@ export default function Resume() {
                 <a
                     href={resume}
                     target="_blank"
-                    className="inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold text-white transition-colors duration-200 bg-green-700 rounded-md shadow-sm hover:bg-green-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
+                    className="inline-flex items-center gap-2 px-3.5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 bg-green-700 rounded-md shadow-sm hover:bg-green-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
                 >
                     <HiOutlineDocumentArrowDown className='size-4 stroke-[2]' />
                     Download as PDF
