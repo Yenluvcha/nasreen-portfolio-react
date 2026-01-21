@@ -25,7 +25,7 @@ export default function AboutMe() {
                     <span className="text-[#F05340]">Laravel</span>. I’m always eager to learn
                     and collaborate—let’s connect and create something amazing!
                 </p>
-                <div className="flex justify-center gap-2 sm:justify-start">
+                <div className="flex justify-center gap-3 sm:justify-start">
                     <a
                         href="https://github.com/Yenluvcha"
                         target="_blank"

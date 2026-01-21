@@ -3,41 +3,78 @@
     "title": "Junior Executive - Web System Development",
     "subtitle": "ROHM Electronics (Malaysia) Sdn. Bhd.",
     "time": "June 2024 - Present",
-    "description": "Project developed:",
+    "tech": [
+      "",
+      ""
+    ],
     "projectList": [
       {
-        "text": "At least 10 characters"
+        "title": "Company Portal Website",
+        "details": [
+          "Migrated a legacy PHP 5.6 portal to PHP 8.2 and refactored it with RESTful APIs, proper routing, and a structured project layout",
+          "Improved performance and reliability using Redis caching, Monolog logging, Composer, Git, and SQL Server native drivers",
+          "Upgraded the UI to Bootstrap 5 and strengthened form handling with modern JavaScript and server-side validation"
+        ]
       },
       {
-        "text": "At least one lowercase character"
+        "title": "SSO Authentication System",
+        "details": [
+          "Built a centralized SSO system using JWT (RS256) for multiple internal applications",
+          "Implemented secure access and refresh token handling with cookies and session validation",
+          "Eliminated duplicated authentication logic and improved security consistency across systems"
+        ]
+      },
+      {
+        "title": "Internal E-Invoicing Middleware",
+        "details": [
+          "Designed and developed an e-Invoicing middleware to aggregate and normalize data from multiple systems",
+          "Validated invoice totals against the General Ledger to ensure financial accuracy",
+          "Securely transmitted verified invoices to external middleware platforms"
+        ]
+      },
+      {
+        "title": "Logistics’ Carton Confirmation, Inventory Management, Return Product Systems",
+        "details": [
+          "Developed three mobile web apps for Android PDA scanners with barcode and QR code support",
+          "Implemented real-time validation to verify items, locations, and logistics rules",
+          "Built CRUD and transaction tracking for scan events, status updates, and audit trailss"
+        ]
       }
     ]
   },
   {
-    "title": "Intern - Web System Development",
+    "title": "Intern - Fullstack Web Developer",
     "subtitle": "ROHM Electronics (Malaysia) Sdn. Bhd.",
     "time": "March 2024 - June 2024",
-    "description": "Project developed:",
+    "tech": [
+      "",
+      ""
+    ],
     "projectList": [
       {
-        "text": "At least 10 characters"
-      },
-      {
-        "text": "At least one lowercase character"
+        "title": "Department KPI Dashboard",
+        "details": [
+          "Designed and developed a Procurement KPI Dashboard to track performance, status, and purchase volumes",
+          "Implemented role-based views for staff-level tracking and management-level insights with interactive charts and tables"
+        ]
       }
     ]
   },
   {
-    "title": "Intern - Web System Development",
+    "title": "Intern - Fullstack Web Developer",
     "subtitle": "ROHM Electronics (Malaysia) Sdn. Bhd.",
-    "time": "September 2021 - February 2022",
-    "description": "Project developed:",
+    "time": " September 2021 - February 2022",
+    "tech": [
+      "",
+      ""
+    ],
     "projectList": [
       {
-        "text": "At least 10 characters"
-      },
-      {
-        "text": "At least one lowercase character"
+        "title": "Scheduled Waste Management System",
+        "details": [
+          "Developed a Scheduled Waste Management System to track waste movements and maintain a centralized archive",
+          "Implemented compliance workflows and reports to support audits and regulatory requirements"
+        ]
       }
     ]
   }

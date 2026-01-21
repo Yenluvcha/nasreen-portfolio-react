@@ -3,30 +3,12 @@
     "title": "Bachelor of Computer Science (Honours)",
     "institution": "MARA University of Technology UiTM, Kuala Terengganu",
     "time": "March 2022 - June 2024",
-    "result": "3.37",
-    "description": "Courses included:",
-    "coursesList": [
-      {
-        "text": "At least 10 characters"
-      },
-      {
-        "text": "At least one lowercase character"
-      }
-    ]
+    "result": "3.37"
   },
   {
     "title": "Diploma in Computer Science",
     "institution": "MARA University of Technology UiTM, Machang",
     "time": "July 2019 - February 2022",
-    "result": "3.58",
-    "description": "Courses included:",
-    "coursesList": [
-      {
-        "text": "At least 10 characters"
-      },
-      {
-        "text": "At least one lowercase character"
-      }
-    ]
+    "result": "3.58"
   }
 ]

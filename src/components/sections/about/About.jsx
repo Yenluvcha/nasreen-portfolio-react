@@ -17,7 +17,7 @@ export default function About() {
         <>
             <AboutMe />
 
-            <SectionHeader icon={<HiOutlineBriefcase className="size-5 stroke-[2]" />} title="Working Experiences" />
+            <SectionHeader icon={<HiOutlineBriefcase className="size-5 stroke-[2]" />} title="Working Experience" />
 
             <TimelineList items={workingExperiences.map((item, index) => (
                 <ExperienceItem
@@ -27,10 +27,7 @@ export default function About() {
                     time={item.time}
                     description={item.description}
                     icon={<HiOutlineBriefcase className="text-orange-800 size-5 dark:text-orange-300" />}
-                    projectList={item.projectList.map((listItem, i) => ({
-                        icon: <HiGlobeAlt className="size-3.5 me-2 shrink-0" />,
-                        text: listItem.text
-                    }))}
+                    projectList={item.projectList}
                 />
             ))} />
 
@@ -45,10 +42,7 @@ export default function About() {
                     result={item.result}
                     description={item.description}
                     icon={<HiOutlineAcademicCap className="text-orange-800 size-5 dark:text-orange-300" />}
-                    coursesList={item.coursesList.map((listItem, i) => ({
-                        icon: <HiOutlineBookOpen className="size-3.5 me-2 shrink-0" />,
-                        text: listItem.text
-                    }))}
+                    coursesList={item.coursesList}
                 />
             ))} />
 
