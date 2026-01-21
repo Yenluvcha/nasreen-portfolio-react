@@ -12,11 +12,11 @@ import workingExperiences from "../../../data/workingExperiences.json";
 import educations from "../../../data/educations.json";
 import certificates from "../../../data/certificates.json";
 
-export default function About() {
+export default function About({ setSelectedTab }) {
 
     return (
         <>
-            <AboutMe />
+            <AboutMe setSelectedTab={setSelectedTab} />
 
             <SectionHeader icon={<HiOutlineWrenchScrewdriver className="size-5 stroke-[2]" />} title="Technical Skills" />
 

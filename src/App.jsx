@@ -15,7 +15,7 @@ function App() {
       <main className='pt-[64px]'>
         <div className="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8 dark:text-white">
           {selectedTab === 'home' && <Home setSelectedTab={setSelectedTab}/>}
-          {selectedTab === 'about' && <About />}
+          {selectedTab === 'about' && <About setSelectedTab={setSelectedTab}/>}
           {selectedTab === 'resume' && <Resume />}
         </div>
       </main>
