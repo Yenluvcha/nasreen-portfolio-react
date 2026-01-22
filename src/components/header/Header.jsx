@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { AnimatePresence, easeInOut, motion } from "motion/react"
 
 import logo from '../../assets/images/logo.svg'
 import { ThemeToggle } from './ThemeToggle'
@@ -36,17 +37,23 @@ export default function Header({ selectedTab, setSelectedTab }) {
                         </div>
                     </div>
                 </div>
-
-                {menuOpen && (
-                    <div className="md:hidden" id="mobile-menu">
-                        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                            <NavLink text="Home" tab="home" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
-                            <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
-                            <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
-                        </div>
-                    </div>
-                )}
-
+                <AnimatePresence mode='wait'>
+                    {menuOpen && (
+                        <motion.div
+                            key="mobile-menu"
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: "auto" }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: 0.3, ease: "easeInOut" }}
+                            className="md:hidden overflow-hidden" id="mobile-menu">
+                            <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3">
+                                <NavLink text="Home" tab="home" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
+                                <NavLink text="About" tab="about" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
+                                <NavLink text="Resume" tab="resume" selectedTab={selectedTab} setSelectedTab={setSelectedTab} setMenuOpen={setMenuOpen} mobile={true} />
+                            </div>
+                        </motion.div>
+                    )}
+                </AnimatePresence>
             </nav>
         </>
     )
