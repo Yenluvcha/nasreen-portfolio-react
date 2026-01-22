@@ -24,12 +24,12 @@ export function ThemeToggle() {
     return (
         <button
             onClick={() => setIsDark((prev) => !prev)}
-            className="p-2 font-medium text-black transition-colors duration-200 rounded-md dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800"
+            className="p-1.5 font-medium text-black transition-colors duration-200 rounded-md dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-800 cursor-pointer"
         >
             {isDark ? (
-                <HiOutlineSun className="size-5"/>
+                <HiOutlineSun className="size-6"/>
             ) : (
-                <HiOutlineMoon className="size-5"/>
+                <HiOutlineMoon className="size-6"/>
             )}
         </button>
     );
