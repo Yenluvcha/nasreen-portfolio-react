@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Home from './components/sections/Home';
 import About from './components/sections/about/About';
 import Resume from './components/sections/Resume';
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           {selectedTab === 'resume' && <Resume />}
         </div>
       </main>
+      <BackToTopButton/>
     </>
   )
 }
