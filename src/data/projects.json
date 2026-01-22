@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Task Manager",
+        "link": "https://github.com/Yenluvcha/task-manager",
+        "techs": [
+            "Tailwind CSS",
+            "JavaScript",
+            "Laravel",
+            "SQLite",
+            "Laravel Herd"
+        ],
+        "details": [
+            "Developed a task management web application using Laravel to create, track, and update tasks with status, priority, and due dates"
+        ]
+    }
+]

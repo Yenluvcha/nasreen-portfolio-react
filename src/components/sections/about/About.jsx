@@ -6,11 +6,11 @@ import ExperienceItem from "./ExperienceItem";
 import EducationItem from "./EducationItem";
 import CertificationCard from "./CertificationCard";
 
-import { HiOutlineWrenchScrewdriver, HiOutlineBriefcase, HiGlobeAlt, HiOutlineAcademicCap, HiOutlineCheckBadge, HiOutlineBookOpen } from "react-icons/hi2";
-
+import { HiOutlineWrenchScrewdriver, HiOutlineBriefcase, HiGlobeAlt, HiOutlineAcademicCap, HiOutlineRocketLaunch, HiOutlineCheckBadge, HiOutlineBookOpen } from "react-icons/hi2";
 import workingExperiences from "../../../data/workingExperiences.json";
 import educations from "../../../data/educations.json";
 import certificates from "../../../data/certificates.json";
+import ProjectItem from "./ProjectItem";
 
 export default function About({ setSelectedTab }) {
 
@@ -35,6 +35,10 @@ export default function About({ setSelectedTab }) {
                     projectList={item.projectList}
                 />
             ))} />
+
+            <SectionHeader icon={<HiOutlineRocketLaunch className="size-5 stroke-[2]" />} title="Projects" />
+
+            <ProjectItem />
 
             <SectionHeader icon={<HiOutlineAcademicCap className="size-5 stroke-[2]" />} title="Education" />
 
