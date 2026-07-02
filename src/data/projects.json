@@ -12,5 +12,19 @@
         "details": [
             "Developed a task management web application using Laravel to create, track, and update tasks with status, priority, and due dates"
         ]
+    },
+    {
+        "title": "Lead Intake & Management System",
+        "link": "https://github.com/Yenluvcha/lead-system",
+        "techs": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "PostgreSQL",
+            "Supabase"
+        ],
+        "details": [
+            "Developed a lead intake and management system to streamline the process of collecting, organizing, and following up on potential customer leads"
+        ]
     }
 ]
