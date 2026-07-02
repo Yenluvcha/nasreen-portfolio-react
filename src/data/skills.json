@@ -49,6 +49,18 @@
             "level": "Beginner",
             "logo": "laravel.svg",
             "backgroundColor": "red"
+        },
+        {
+            "name": "Node.js",
+            "level": "Beginner",
+            "logo": "nodejs.svg",
+            "backgroundColor": "green"
+        },
+        {
+            "name": "Express.js",
+            "level": "Beginner",
+            "logo": "expressjs.svg",
+            "backgroundColor": "black"
         }
     ],
     "database": [
@@ -68,6 +80,12 @@
             "name": "MySQL",
             "level": "Beginner",
             "logo": "mysql.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "Beginner",
+            "logo": "postgres.svg",
             "backgroundColor": "blue"
         }
     ],
@@ -113,6 +131,24 @@
             "level": "Beginner",
             "logo": "herd.svg",
             "backgroundColor": "orange"
+        },
+        {
+            "name": "Apache",
+            "level": "Beginner",
+            "logo": "apache.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "Vite",
+            "level": "Beginner",
+            "logo": "vite.svg",
+            "backgroundColor": "blue"
+        },
+        {
+            "name": "Ubuntu",
+            "level": "Beginner",
+            "logo": "ubuntu.svg",
+            "backgroundColor": "red"
         }
     ]
 }
