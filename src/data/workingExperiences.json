@@ -1,8 +1,27 @@
 [
   {
+    "title": "Junior Software Developer",
+    "subtitle": "Bugz Studio Sdn. Bhd.",
+    "time": "September 2026 - Present",
+    "tech": [
+      "",
+      ""
+    ],
+    "projectList": [
+      {
+        "title": "Transport Management Systems",
+        "details": [
+          "Maintained and enhanced a client-facing Transport Management System, implementing new features, bug fixes, and improvements across existing modules.",
+          "Developed backend features using NestJS, including microservice task status monitoring and real-time alerting through Redis Pub/Sub.",
+          "Revamped existing application interfaces and layouts using Angular, and contributed to framework version upgrades."
+        ]
+      }
+    ]
+  },
+  {
     "title": "Junior Executive - Fullstack Web Developer",
     "subtitle": "ROHM Electronics (Malaysia) Sdn. Bhd.",
-    "time": "June 2024 - Present",
+    "time": "June 2024 - August 2026",
     "tech": [
       "",
       ""
