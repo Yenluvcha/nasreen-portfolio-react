@@ -35,6 +35,12 @@
             "level": "Intermediate",
             "logo": "bootstrap.svg",
             "backgroundColor": "blue"
+        },
+        {
+            "name": "Angular",
+            "level": "Beginner",
+            "logo": "angular.svg",
+            "backgroundColor": "red"
         }
     ],
     "backend": [
@@ -61,6 +67,12 @@
             "level": "Beginner",
             "logo": "expressjs.svg",
             "backgroundColor": "black"
+        },
+        {
+            "name": "NestJS",
+            "level": "Beginner",
+            "logo": "nestjs.svg",
+            "backgroundColor": "red"
         }
     ],
     "database": [
@@ -149,6 +161,12 @@
             "level": "Beginner",
             "logo": "ubuntu.svg",
             "backgroundColor": "red"
+        },
+        {
+            "name": "Codex",
+            "level": "Beginner",
+            "logo": "codex.svg",
+            "backgroundColor": "black"
         }
     ]
 }
